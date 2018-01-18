@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+	margin: 0;
+	background-color: #FFFFFF;
+	font-family: 'Oxygen', 'Helvetica';
+}
+
+a {
+	text-decoration: none;
+}
+
+.body {
+	width: 100%;
+	height: 70%;
+	padding: 10px;
+}
