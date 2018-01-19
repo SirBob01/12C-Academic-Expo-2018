@@ -108,7 +108,7 @@ right {
     width:1000px;
     height:300px;
     display: block;
-    border-bottom: 10px solid blue;
-    text-align: center;
+    background-color: #eab7ff;
+    border-radius: 10px
 }
 
