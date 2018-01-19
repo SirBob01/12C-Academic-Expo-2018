@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 
+@import url('https://fonts.googleapis.com/css?family=Rubik:700,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
 body {
 	margin: 0;
 	background-color: #FFFFFF;
-	font-family: 'Oxygen', 'Helvetica';
+	font-family: 'Open Sans';
 }
 
 a {
@@ -14,4 +18,55 @@ a {
 	width: 100%;
 	height: 70%;
 	padding: 10px;
+}
+
+
+#container{
+    position: absolute;
+    float:left; clear:both;
+	box-sizing: border-box;
+	width:100% !important;
+	height:100%;
+	top:0; left:0; bottom:0; right:0;
+    overflow-x: hidden;
+    margin:0; padding:0;
+}
+
+
+.within{
+	position:relative;
+	width:100%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.box{
+	display:block;
+	max-width:100%;
+	top:0;
+	left:0;
+	justify-content: center;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+
+.box img{
+    max-width:100%;
+}
+
+.landing .main_button{
+    background: #36377c;
+    padding:.5em;
+    display:inline-block;
+    width:100px;
+    color: #fff;
+    text-align: center;
+    font-family: "Rubik";
+    font-weight:600;
+    height:30px;
+    line-height:30px;
+}
+
+.landing .main_button:hover{
+    background: #a8292b;
 }
