@@ -104,7 +104,7 @@ right {
 .topic-container {
     overflow: auto;
     width:1000px;
-    height:500px;
+    height:300px;
     display: block;
     border-bottom: 10px solid blue;
 }
