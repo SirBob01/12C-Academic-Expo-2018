@@ -21,6 +21,7 @@ a {
     width:100%;
     z-index:9999;
     padding:1em;
+    background-image:url('img/header_bg.png');
 }
 
 
