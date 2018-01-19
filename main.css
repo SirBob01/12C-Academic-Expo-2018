@@ -103,7 +103,7 @@ right {
 
 .topic-container {
     overflow: auto;
-    width:500px;
+    width:300px;
     height:500px;
     display: block;
 }
