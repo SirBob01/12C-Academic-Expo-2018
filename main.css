@@ -92,3 +92,17 @@ a{
 .landing .main_button:hover{
     background: #a8292b;
 }
+
+left {
+    float: left;
+}
+
+right {
+    float: right;
+}
+
+.topic-container {
+    overflow: auto;
+    width:1000px;
+    height:1000px;
+}
