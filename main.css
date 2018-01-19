@@ -95,10 +95,12 @@ a{
 
 left {
     float: left;
+    left: 0
 }
 
 right {
     float: right;
+    right: 0
 }
 
 .topic-container {
@@ -107,5 +109,6 @@ right {
     height:300px;
     display: block;
     border-bottom: 10px solid blue;
+    text-align: center;
 }
 
